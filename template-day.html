@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title><!-- Day Title --> Day XXX | 365 Days of Chinese</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Noto+Serif+SC:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <meta name="description" content="<!-- Short description for the day -->" />
+  <meta name="robots" content="index,follow" />
+  <meta property="og:title" content="<!-- Day Title --> Day XXX | 365 Days of Chinese" />
+  <meta property="og:description" content="<!-- Short description for the day -->" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="<!-- https://your/site/day-xxx.html -->" />
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="./">🀄 365 Days of Chinese</a>
+      <div class="site-actions">
+        <button id="themeToggle" class="theme-toggle" aria-label="Toggle color theme">Toggle theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="content" class="container" tabindex="-1">
+    <article class="post-card">
+      <header class="post-header">
+        <h1 class="post-title"><!-- Day Title --> Day XXX</h1>
+        <div class="post-meta"><!-- Date or note --> YYYY-MM-DD</div>
+      </header>
+
+      <div class="post-content">
+        <h2>Words Learned</h2>
+
+        <!-- WORD BLOCK START -->
+        <section class="word-card">
+          <div class="word-header">
+            <div class="word-title"><!-- Hanzi --> 学习</div>
+            <span class="badge">Hanzi</span>
+          </div>
+          <div class="hanzi-big-grid">
+            <div class="hanzi-big">学</div>
+            <div class="hanzi-big">习</div>
+          </div>
+          <div class="word-info">
+            <div class="pinyin"><!-- Pinyin --> xuéxí</div>
+            <div class="meaning"><!-- Meaning --> to study; to learn</div>
+            <div class="actions">
+              <button class="btn speak" data-text="学习">Speak</button>
+            </div>
+          </div>
+          <div class="examples">
+            <p class="zh">我每天学习中文。</p>
+            <p class="pny">Wǒ měitiān xuéxí zhōngwén.</p>
+            <p class="en">I study Chinese every day.</p>
+          </div>
+        </section>
+        <!-- WORD BLOCK END -->
+
+        <!-- Duplicate the WORD BLOCK for more words -->
+
+        <h2>Notes</h2>
+        <p><!-- Write your reflections or notes about today's learning --></p>
+        <nav class="post-nav">
+          <a href="index.html">← Back to Home</a>
+          <a href="<!-- next file e.g., day-XXX.html -->">Next Day →</a>
+        </nav>
+      </div>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="y"></span> · 365 Days of Chinese</p>
+    </div>
+  </footer>
+  <script>document.getElementById('y').textContent = new Date().getFullYear();</script>
+  <script src="https://cdn.jsdelivr.net/npm/hanzi-writer@3.5.2/dist/hanzi-writer.min.js"></script>
+  <script src="assets/scripts/main.js"></script>
+  <script src="assets/scripts/day.js"></script>
+</body>
+</html>
+
+
