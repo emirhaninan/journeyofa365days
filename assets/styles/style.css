@@ -71,6 +71,14 @@ body.home {
   background-position: center;
 }
 
+/* Swap homepage background based on explicit theme */
+:root[data-theme="dark"] body.home {
+  background-image: url('../images/chinanight.jpg');
+}
+:root[data-theme="light"] body.home {
+  background-image: url('../images/chinamountains.jpeg');
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
